@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Smart Task Planner</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="app">
+      <div class="header">
+        <h1>Smart Task Planner</h1>
+        <label class="switch">
+          <input type="checkbox" id="themeToggle" />
+          <span class="slider"></span>
+        </label>
+      </div>
+
+      <p class="subtitle">Organize your tasks efficiently</p>
+
+      <div class="input-box">
+        <input type="text" id="taskInput" placeholder="Add a new task" />
+        <select id="prioritySelect">
+          <option value="low">Low</option>
+          <option value="medium">Medium</option>
+          <option value="high">High</option>
+        </select>
+        <button id="addBtn">+</button>
+      </div>
+
+      <div class="task-info">
+        <span id="totalTasks">Total: 0</span>
+        <span id="completedTasks">Completed: 0</span>
+      </div>
+
+      <input type="text" id="searchInput" placeholder="Search tasks..." />
+
+      <ul id="taskList"></ul>
+
+      <div class="progress-container">
+        <div id="progressBar"></div>
+      </div>
+
+      <button class="clear-btn" id="clearAll">Clear All</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
