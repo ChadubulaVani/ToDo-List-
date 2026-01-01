@@ -30,7 +30,7 @@
 1. **Clone the repository**
 
 ```bash
-git clone [YOUR_GITHUB_REPO_LINK]
+git clone https://github.com/ChadubulaVani/ToDo-List-
 ```
 
 2. **Open `index.html`** in your browser
@@ -53,7 +53,7 @@ git clone [YOUR_GITHUB_REPO_LINK]
 
 ## Folder Structure
 
-```
+
 ToDo-List-App/
 │
 ├── index.html          # Main HTML file
@@ -80,6 +80,6 @@ ToDo-List-App/
 ---
 
 Developer: Chadubula Vani [Aspiring Full Stack Developer]
-LinkedIn: [Your LinkedIn URL]
-GitHub: [Your GitHub Repo URL]
+LinkedIn: https://www.linkedin.com/in/chadubula-vani-6634b0321/
+GitHub: https://github.com/ChadubulaVani
 
